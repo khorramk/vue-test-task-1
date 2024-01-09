@@ -2,7 +2,6 @@
   <section id="features" class="features-section">
     <div class="section-content">
       <h2>Key Features</h2>
-      
       <p>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates,
         ipsam nulla deserunt doloremque autem hic consequatur, possimus numquam
@@ -46,6 +45,8 @@
           <a href="#">Learn more</a>
         </div>
       </div>
+
+      <a href="">Learn more</a>
     </div>
   </section>
 </template>
