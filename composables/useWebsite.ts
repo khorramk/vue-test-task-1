@@ -20,11 +20,5 @@ export const useWebsiteStore = defineStore('websiteStore', {
       ],
       description: ''
     }),
-    actions: {
-      async fetch() {
-        const infos = await $fetch('https://api.nuxt.com/modules/pinia')
-  
-      }
-    }
   })
   
