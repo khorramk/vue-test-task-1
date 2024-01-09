@@ -3,7 +3,9 @@
         <div class="cta-content">
             <div class="cta-image">
                 <!-- Replace 'your-image.jpg' with your actual image URL -->
-                <img src="" alt="CTA Image">
+                <picture>
+                    <img src="/img/ctaLearnMore.svg" style="width: 50%;" alt="">
+                </picture>
             </div>
             <div class="cta-text">
                 <h2></h2>
