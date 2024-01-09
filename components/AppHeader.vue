@@ -1,10 +1,10 @@
 <template>
   <nav class="navigation" role="navigation" aria-label="Main Navigation">
-    <a href="#" class="navigation__logo">
+    <NuxtLink to="/" class="navigation__logo">
       <client-only>
         <NuxtImg src="/img/logo.png" sizes="200px sm:400px lg:640px" />
       </client-only>
-    </a>
+    </NuxtLink>
 
     <a
       class="navigation__toggle"
