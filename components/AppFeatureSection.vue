@@ -16,6 +16,7 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id
             elit nec arcu cursus aliquam.
           </p>
+          <NuxtLink to="/learn-more">Learn more</NuxtLink>
         </div>
 
         <div class="feature">
@@ -24,7 +25,7 @@
             Curabitur suscipit orci vel turpis fermentum, ut fermentum quam
             cursus. Duis et mauris vitae velit venenatis accumsan vel nec dui.
           </p>
-          <a href="#">Learn more</a>
+          <NuxtLink to="/learn-more">Learn more</NuxtLink>
         </div>
 
         <div class="feature">
@@ -33,20 +34,18 @@
             Curabitur suscipit orci vel turpis fermentum, ut fermentum quam
             cursus. Duis et mauris vitae velit venenatis accumsan vel nec dui.
           </p>
-          <a href="#">Learn more</a>
+          <NuxtLink to="/lean-more">Learn more</NuxtLink>
         </div>
-
         <div class="feature">
           <h3>Feature 4</h3>
           <p>
             Curabitur suscipit orci vel turpis fermentum, ut fermentum quam
             cursus. Duis et mauris vitae velit venenatis accumsan vel nec dui.
           </p>
-          <a href="#">Learn more</a>
+          <NuxtLink to="/learn-more">Learn more</NuxtLink>
         </div>
       </div>
-
-      <a href="">Learn more</a>
+      <NuxtLink to="/learn-more">Learn more</NuxtLink>
     </div>
   </section>
 </template>

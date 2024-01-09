@@ -14,7 +14,7 @@
           dicta, obcaecati tenetur ipsum repellendus aliquid aspernatur dolore
           facere labore totam distinctio. Ex!
         </p>
-        <a href="#" class="cta-button">Learn more</a>
+        <NuxtLink to="learn-more" class="cta-button" role="button" aria-label="Learn More">Learn more</NuxtLink>
       </div>
     </div>
   </section>
