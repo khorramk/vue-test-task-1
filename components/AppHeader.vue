@@ -37,7 +37,7 @@
     </a>
 
     <ul role="menubar" id="menu" class="navigation__list">
-      <li v-for="menu in menuItems" role="menuitem" class="navigation__item">
+      <li v-for="(menu, i) in menuItems" :key="i" role="menuitem" class="navigation__item">
         <NuxtLink class="navigation__link"  :to="menu.link">{{ menu.name }}</NuxtLink>
       </li>
       <a href="#" class="clear-modal">&times;</a>
