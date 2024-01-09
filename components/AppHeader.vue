@@ -37,24 +37,17 @@
     </a>
 
     <ul role="menubar" id="menu" class="navigation__list">
-      <li role="menuitem" class="navigation__item">
-        <a class="navigation__link" href="#">Home</a>
+      <li v-for="menu in menuItems" role="menuitem" class="navigation__item">
+        <NuxtLink class="navigation__link"  :to="menu.link">{{ menu.name }}</NuxtLink>
       </li>
-      <li role="menuitem" class="navigation__item">
-        <a class="navigation__link" href="#">Home</a>
-      </li>
-      <li role="menuitem" class="navigation__item">
-        <a class="navigation__link" href="#">Home</a>
-      </li>
-      <li role="menuitem" class="navigation__item">
-        <a class="navigation__link" href="#">Home</a>
-      </li>
-      <li role="menuitem" class="navigation__item">
-        <a class="navigation__link" href="#">Home</a>
-      </li>
-    <a href="#" class="clear-modal">&times;</a>
-
+      <a href="#" class="clear-modal">&times;</a>
     </ul>
-
   </nav>
 </template>
+
+<script lang="ts" setup>
+
+ const {menuItems} = useWebsiteStore();
+
+</script>
+
