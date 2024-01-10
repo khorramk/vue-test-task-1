@@ -2,7 +2,7 @@
   <nav class="navigation" role="navigation" aria-label="Main Navigation">
     <NuxtLink to="/" class="navigation__logo">
       <client-only>
-        <NuxtImg src="/img/logo.png" sizes="200px sm:400px lg:640px" />
+        <NuxtImg src="/img/logo.png" sizes="200px xs:200px sm:400px lg:640px" />
       </client-only>
     </NuxtLink>
 
@@ -17,7 +17,7 @@
       <svg
         class="hamburger-icon"
         viewBox="0 0 100 110"
-        fill="white"
+        fill="#333"
         xmlns="http://www.w3.org/2000/svg"
       >
         <rect class="bar bar1" width="100" height="4" transform="translate(0 0)" />

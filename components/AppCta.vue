@@ -11,7 +11,7 @@
             /img/ctaMobilePlacheolder.svg  600w,
             /img/ctaPlaceholder.svg       1200w
           "
-          sizes="(max-width: 700px) 400px, (max-width: 1000px) 1400px"
+          sizes="(max-width: 700px) 400px, (max-width: 800px) 1400px"
         />
       </client-only>
     </div>
