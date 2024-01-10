@@ -1,11 +1,11 @@
 <template>
-    <div class="link-tag">
+    <div  :class="bordered ? ' link-tag': 'no-border link-tag '">
         <NuxtLink :to="page"><slot/></NuxtLink>
     </div>
 </template>
 
 <script lang="ts" setup>
-const props = defineProps(['page'])
+const props = defineProps(['page', 'bordered'])
 </script>
 
 <style scoped lang="scss">
@@ -22,6 +22,10 @@ const props = defineProps(['page'])
         background-color: rgb(234 227 227);
         color: rgb(214, 2, 2);
     }
+ }
+
+ .no-border :deep(a) {
+    border: none;
  }
 
  

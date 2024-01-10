@@ -16,7 +16,7 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id
             elit nec arcu cursus aliquam.
           </p>
-          <app-link-button page="/learn-more">
+          <app-link-button :bordered="true" page="/learn-more">
           Learn-more
         </app-link-button>
         </div>
@@ -27,7 +27,7 @@
             Curabitur suscipit orci vel turpis fermentum, ut fermentum quam
             cursus. Duis et mauris vitae velit venenatis accumsan vel nec dui.
           </p>
-          <app-link-button page="/learn-more">
+          <app-link-button :bordered="true" page="/learn-more">
           Learn-more
         </app-link-button>
         </div>
@@ -38,7 +38,7 @@
             Curabitur suscipit orci vel turpis fermentum, ut fermentum quam
             cursus. Duis et mauris vitae velit venenatis accumsan vel nec dui.
           </p>
-          <app-link-button page="/learn-more">
+          <app-link-button :bordered="true" page="/learn-more">
           Learn-more
         </app-link-button>
         </div>
@@ -54,7 +54,7 @@
         </div>
       </div>
       <div class="link-container">
-        <app-link-button page="/learn-more">
+        <app-link-button :bordered="true" page="/learn-more">
           Learn-more
         </app-link-button>
       </div>
