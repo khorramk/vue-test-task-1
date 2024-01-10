@@ -1,8 +1,12 @@
 .navigation {
-  background-color: #333;
-  color: white;
+  background-color: #ffffff;
+  color: #333;
   padding: 3rem;
-  position: relative;
+  position: sticky;
+  z-index: 9999;
+  right: 0;
+  top: 0;
+  left: 0;
 
   .navigation__toggle {
      position: absolute;
@@ -60,7 +64,7 @@
     }
 
     .navigation__link {
-      color: white;
+      color: #333;
       text-decoration: none;
     }
 

@@ -6,6 +6,10 @@
     color: #ffff;
   }
 
+  body {
+    margin: 0;
+  }
+
   @import '_appHeader';
   @import '_appCta';
   @import '_appCtaLearnMoreSection';
